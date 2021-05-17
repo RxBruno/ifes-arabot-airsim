@@ -126,7 +126,7 @@ int main()
 		}
 		if (option == 3)
 		{
-			segment::savePBM(map, "Mapa.pbm");
+			segment::savePGM(map, "Mapa.pgm");
 			delete map;
 		}
 	}
